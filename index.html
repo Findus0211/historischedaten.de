@@ -1,0 +1,343 @@
+html
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeitstrahl der NS-Machtergreifung (1933–1938)</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <style>
+        .timeline-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .timeline-card:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans selection:bg-red-600 selection:text-white">
+
+    <!-- Header Section -->
+    <header class="relative overflow-hidden border-b border-slate-900 bg-slate-900 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-red-950/20 via-slate-900 to-slate-950 pointer-events-none"></div>
+        <div class="relative max-w-4xl mx-auto text-center">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-red-950/50 text-red-400 border border-red-800/50 mb-3">
+                Chronologische Übersicht
+            </span>
+            <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mb-3">
+                Weg in die Diktatur (1933–1938)
+            </h1>
+            <p class="text-base text-slate-400 max-w-2xl mx-auto">
+                Die schrittweise Zerstörung der Demokratie und der Aufbau des nationalsozialistischen Regimes.
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-5xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+
+        <!-- Timeline Section -->
+        <section class="relative">
+            <!-- Center Line (Desktop) / Left Line (Mobile) -->
+            <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-red-600 via-slate-800 to-red-900 transform -translate-x-1/2"></div>
+
+            <div class="space-y-12">
+
+                <!-- 30.01.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-red-600 flex items-center justify-center text-xs font-bold text-red-500 shadow-md">1</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-red-500 mb-1">30.01.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Hitler wird Reichskanzler</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Beginn der Diktatur. Die katholische Kirche lehnt den Nationalsozialismus zunächst ab.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 01.02.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">2</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">01.02.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Auflösung des Reichstags</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Auflösung des Reichstags und Anordnung von Neuwahlen unter Reichspräsident Hindenburg.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 04.02.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">3</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">04.02.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Einschränkung der Pressefreiheit</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Erste massive Einschränkungen der Pressefreiheit durch Notverordnungen.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 22.02.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">4</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">22.02.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Hilfspolizei SS und SA</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">SS und SA werden als Hilfspolizisten eingesetzt, um politischen Druck aufzubauen.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 27.02.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">5</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">27.02.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Der Reichstagsbrand</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Der Reichstagsbrand dient den Nationalsozialisten als Vorwand für radikale Maßnahmen.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 28.02.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">6</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">28.02.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Reichstagsbrandverordnung</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Die Verordnung setzt wesentliche Grundrechte wie die Meinungs- und Pressefreiheit dauerhaft außer Kraft.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 05.03.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">7</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">05.03.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Reichstagswahlen</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Reichstagswahlen unter Bedingungen von Terror und stark eingeschränkter Freiheit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 21.03.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">8</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">21.03.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">„Tag von Potsdam“</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Hitler verspricht Schutz der Kirchenrechte; der kirchliche Widerstand sinkt.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 22.03.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">9</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">22.03.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Errichtung des KZ Dachau</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Errichtung des ersten Konzentrationslagers in Dachau für politische Gegner.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 23.03.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">10</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">23.03.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Das Ermächtigungsgesetz</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Es setzt die Gewaltenteilung außer Kraft. Hitler kann nun ohne Parlament Gesetze beschließen.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 31.03.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">11</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">31.03.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Gleichschaltung der Länder</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Gleichschaltung der Länder-Parlamente und Anpassung an die NS-Machtverhältnisse.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 07.04.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">12</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">07.04.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Reichsstatthalter-Gesetz</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Einsetzung von Reichsstatthaltern zur zentralen Kontrolle der einzelnen Bundesländer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 30.04.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">13</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">30.04.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Verfolgung der Opposition</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Systematische Ausschaltung und Verfolgung weiterer politischer Gegner des Regimes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 01.05.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">14</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">01.05.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Feiertags-Propaganda</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Der „Tag der Arbeit“ wird als gesetzlicher Feiertag für NS-Propaganda instrumentalisiert.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 02.05.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">15</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">02.05.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Zerschlagung der Gewerkschaften</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Zerschlagung und Besetzung der freien Gewerkschaften durch die Nationalsozialisten.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10.05.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">16</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">10.05.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Bücherverbrennungen</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Öffentliche Bücherverbrennungen von Werken „undeutschen Geistes“ im ganzen Land.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 22.06.1933 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 shadow-md">17</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-slate-400 mb-1">22.06.1933</div>
+                            <h3 class="text-base font-bold text-white mb-2">Verbot der SPD</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Verbot der SPD; kurz darauf entsteht der Einparteienstaat durch die NSDAP.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 15.09.1935 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-red-600 flex items-center justify-center text-xs font-bold text-red-500 shadow-md">18</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-red-500 mb-1">15.09.1935</div>
+                            <h3 class="text-base font-bold text-white mb-2">Nürnberger Gesetze</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Bieten die juristische Grundlage für die antisemitische und rassistische Verfolgung.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 09.–10.11.1938 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between md:odd:flex-row-reverse timeline-card">
+                    <div class="w-full md:w-[45%] hidden md:block"></div>
+                    <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
+                        <div class="w-8 h-8 rounded-full bg-slate-900 border-2 border-red-600 flex items-center justify-center text-xs font-bold text-red-500 shadow-md">19</div>
+                    </div>
+                    <div class="w-full md:w-[45%] pl-12 md:pl-0">
+                        <div class="bg-slate-900 border border-slate-800/80 p-5 rounded-2xl shadow-lg hover:border-slate-700 transition-all">
+                            <div class="text-sm font-bold text-red-500 mb-1">09.–10.11.1938</div>
+                            <h3 class="text-base font-bold text-white mb-2">Reichspogromnacht</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">Gewalt gegen Juden. Die Kirche schweigt weitgehend aus Angst vor Repressalien.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-900 bg-slate-950 py-8 px-4 text-center text-xs text-slate-500">
+        <p>&copy; 2026 Historische Dokumentation. Alle Daten wurden sorgfältig geprüft.</p>
+    </footer>
+
+</body>
+</html>
